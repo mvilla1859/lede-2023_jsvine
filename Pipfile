@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "*"
+cssselect = "*"
+lxml = "*"
+pandas = "*"
+pdfplumber = ">=0.10.1"
+requests = "*"
+nbexec = "*"
+black = "*"
+flake8 = "*"
+isort = "*"
+jupyter = "*"
+jupyterlab = "*"
+rise = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
